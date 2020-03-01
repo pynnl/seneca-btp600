@@ -13,5 +13,16 @@ Projects:
 ## Atom
   
 ## Research Question:
-What design patterns does the Atom API use and how does it make it easier to manage packages?
+What design patterns do the Atom API use and how does it make it easier to manage packages?
+
+## Timeline
+  - Week 1 (March 3)
+    - Research external modules
+  - Week 2 (March 10)
+    - Research API internally (how API handles external modules)
+  - Week 3 (March 17)
+    - Finish written report
+  - Week 4 (March 24)
+    - Presentation preparation
+  - Due Date March 31
 
