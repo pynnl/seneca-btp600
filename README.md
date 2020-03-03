@@ -17,6 +17,8 @@ We found that the way that Atom manages its multitude of packages is through its
 ![](./atom-environment.png)
 ![](./AtomEnvironmentExport.PNG)
 
+We chose to do our research project on Atom because it has very extensive documentation and JavaScript being a language that is very easy to read. It also uses very modern design practices and has an interesting structure with the way that Atom API works which made us want to learn more about Atom.
+
 ## Research Question:
 What design patterns do the Atom API use and how does it make it easier to manage packages?
 
