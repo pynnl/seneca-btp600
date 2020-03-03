@@ -11,7 +11,11 @@ Projects:
 ## MLC
 
 ## Atom
-  
+Atom has been designed as an extremely modular program which can add extra functionalities through the use of packages. Atom's core actually contains very little, and unlike other IDEs is missing even simple functionalities like syntax highlighting without the use of packages. Atom has a very specific file structure that will be the same for all of its packages. Here is an example with the find and replace functionality package:
+
+We found that the way that Atom manages its multitude of packages is through its API which is implemented using a singleton design pattern. It has a global variable called AtomEnvironment and this variable can be accessed by all of Atom's packages to allow for calls to Atom's API. Here is the code where Atom creates the instance of AtomEnvironment:
+
+
 ## Research Question:
 What design patterns do the Atom API use and how does it make it easier to manage packages?
 
