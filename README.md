@@ -7,8 +7,15 @@ Projects:
   - [Atom IDE](https://github.com/atom/atom)
   
 ## VLC
+VLC is a popular open-source media player. It is written mostly in C. The components are broken down into smaller components, which is very similar to how modern web development works. For example, the `playlist` is broken down into several pieces:
+![](./VLC_playlist.png)
 
-## MLC
+## MPC
+MPC is another popular media player written in C++. Because it uses a high level languages, it can take use of several prebuilt features, leading to smaller codes. For example, for the same `playlist` features, MPC only needs couples of models:
+![](./MPC_playlist.png)
+
+Inside `playlist.h`, it uses `CAtlList` which is a built-in library in ATL for Visual Studio. More info here: https://docs.microsoft.com/en-us/cpp/atl/reference/catllist-class?view=vs-2019
+![](./MPC_playlist_h.png)
 
 ## Atom
 Atom has been designed as an extremely modular program which can add extra functionalities through the use of packages. Atom's core actually contains very little, and unlike other IDEs is missing even simple functionalities like syntax highlighting without the use of packages. Atom has a very specific file structure that will be the same for all of its packages. Here is an example with the find and replace functionality package: ![](./package.PNG)
